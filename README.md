@@ -1,4 +1,4 @@
-# Text Grafting: Near-Distribution Supervision for Minority Classes
+# Text Grafting: Near-Distribution Weak Supervision for Minority Classes
 **Overview**
 Text Grafting generates high-quality, in-distribution weak supervision for minority classes in text classification tasks, combining the strengths of pseudo-label mining and LLM-based text synthesis.
 
