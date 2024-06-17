@@ -1,0 +1,13 @@
+python grafting.py --api_key "your_openai_key"\
+	--hf_token "your_huggingface_key"\
+	--model_engine "gpt-4o"\
+	--miner_id "google/gemma-1.1-7b-it" \
+	--ratio_k 0.25 \
+	--ratio_t 0.1 \
+	--raw_text_lim 10000 \
+	--label_name "surprised" \
+	--label_id 5 \
+	--dataset_path "SetFit/emotion" \
+	--dataset_name "emotion" \
+	--style "sentence" \
+	--device "0" 
